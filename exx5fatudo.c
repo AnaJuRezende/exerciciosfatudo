@@ -23,7 +23,7 @@ int main(){
         scanf("%d", &nota2);
         alunos[j++] = nota2;
 
-        system("clear");
+        system("cls");
         printf("----------------------------\n");
         printf("==== Cadastro de alunos ==== \n");
         printf("----------------------------\n");
@@ -33,7 +33,7 @@ int main(){
         i++;
     }
 
-    system("clear");
+    system("cls");
     printf("----------------------------\n");
     printf("==== Cadastro de alunos ==== \n");
     printf("----------------------------\n");
