@@ -6,10 +6,10 @@ int main(){
     float vnota1[50], vnota2[50];
     
     printf("----------------------------\n");
-    printf(" -- cadastro de alunos -- \n");
+    printf("==== Cadastro de alunos ==== \n");
     printf("----------------------------\n");
     
-    printf("digite sua matricula ou 0 para sair: ");
+    printf("Digite sua matricula ou 0 para sair: ");
     scanf("%d", &matricula);
     
     while ((matricula != 0) && (I < 50)) {
@@ -22,10 +22,10 @@ int main(){
         
         system("cls");
         printf("----------------------------\n");
-        printf(" -- cadastro de alunos -- \n");
+        printf("==== cadastro de alunos ==== \n");
         printf("----------------------------\n");
         
-        printf("digite sua matricula ou 0 para sair: "); 
+        printf("Digite sua matricula ou 0 para sair: "); 
         scanf("%d", &matricula);
         I++;
     }
@@ -33,7 +33,7 @@ int main(){
     
     system("cls");
     printf("----------------------------\n");
-    printf(" -- cadastro de alunos -- \n");
+    printf("==== Cadastro de alunos ====\n");
     printf("----------------------------\n");
     
     for (J = 0; J <= I; J++) {
